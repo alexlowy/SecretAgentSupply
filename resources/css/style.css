@@ -1,0 +1,172 @@
+/* General Styles */
+
+html {
+  font-family: Courier;
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+li {
+  display: list-item;
+  color: white;
+}
+
+/* Header Section */
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.company img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.company span {
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+/* Hero Section */
+
+.hero {
+  background: url("../../resources/images/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+h1, h4 {
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 100;
+  display: block;
+}
+
+.headline {
+  width: 400px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 120px;
+}
+
+.headline h1 {
+  padding: 0px 40px 40px 40px;
+}
+
+.headline h4 {
+  padding: 40px 40px 15px 40px;
+}
+
+/* nav section */
+
+nav {
+  display: block;
+  background-color: firebrick;
+  color: white;
+  height: 50px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+nav li {
+  top: 30px;
+  font-size: 1em;
+  display: inline-block;
+  padding-right: 80px;
+}
+
+/* Product Section */
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.product-image {
+  display: flex;
+  border: 5px solid black;
+  padding: 40px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.product-description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding; 50px;
+  height: 30px;
+}
+
+/* Location & Hours */
+
+.info {
+  width: 30%;
+  justify-content: flex-start;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px 10px 0px;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  padding: 50px 0px;
+}
