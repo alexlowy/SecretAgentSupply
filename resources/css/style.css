@@ -149,15 +149,15 @@ nav li {
 
 /* Location & Hours */
 
-.info {
-  width: 30%;
-  justify-content: flex-start;
-}
-
 .info-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+}
+
+.info {
+  width: 30%;
+  justify-content: flex-start;
 }
 
 .info .title {
@@ -206,6 +206,60 @@ nav ul {
 
 .info {
   width: 30%;
+}
+
+}
+
+@media only screen and (max-width: 470px) {
+
+.hero {
+  align-items: flex-end;
+}
+
+.headline {
+  height: 5rem;
+  top: 15em;
+  width: 100%;
+}
+
+.hero {
+  background-size: cover;
+  height: 15rem;
+}
+
+.product.watch {
+  display: none;
+}
+
+.product {
+  width: 90%;
+}
+
+.products {
+  justify-content: space-around;
+  margin: 6rem 0px 6rem 0px;
+}
+
+h4 {
+  font-size: 0.77rem;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.info {
+  display: inline-block;
+  width: 90%;
+}
+
+footer {
+  text-align: center;
+}
+
+.info-container {
+  display: block;
+  justify-content: space-around;
 }
 
 }
